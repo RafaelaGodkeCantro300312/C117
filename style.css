@@ -1,0 +1,25 @@
+body {
+    background-color:rgb(246, 202, 136);
+}
+#limpar, #show_sketch {
+    background-color:rgb(243, 173, 94);
+    border-radius:5px;
+    border-width:1.5;
+    margin:7px;
+}
+#limpar {
+    margin-top:330px;
+}
+canvas {
+    background-color:rgb(250, 195, 86);
+    border:4px solid white;
+    border-radius:20px;
+    animation-name:canvas;
+    animation-duration:2s;
+    margin-top:60px;
+    animation-iteration-count:infinite;
+}
+@keyframes canvas {
+    from {box-shadow:1px 1px 38px rgb(255, 217, 2);}
+    to {box-shadow:1px 1px 38px rgb(255, 123, 67);}
+}
